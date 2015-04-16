@@ -2419,17 +2419,7 @@ Elm.Main.make = function (_elm) {
          jumpKey = $._1,
          moveKeys = $._2,
          aimKeys = $._3;
-         var eitherAxis = F2(function (a,
-         b) {
-            return _U.cmp(a,
-            1.0e-2) < 0 ? b : a;
-         });
-         var eitherStick = F2(function (a,
-         b) {
-            return {_: {}
-                   ,x: A2(eitherAxis,a.x,b.x)
-                   ,y: A2(eitherAxis,a.y,b.y)};
-         });
+         var eitherStick = $Vector.vadd;
          var filterStick = function (v) {
             return _U.cmp($Vector.magnitude(v),
             0.3) < 0 ? $Vector.zero : v;
