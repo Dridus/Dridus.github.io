@@ -1,0 +1,51 @@
+div.main-title {
+  padding-bottom: 1.5em;
+}
+
+.main-title h1 {
+  margin-bottom: 0em;
+}
+
+body {
+  font-size: 0.85em;
+  font-family: "LatoLatinWeb", "Helevetica Neue", sans-serif;
+}
+
+h2 {
+  margin-bottom: 0.375em;
+}
+
+h2.h3-bottom-margin {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+h3 small {
+  font-variant: small-caps;
+  font-size: 0.8em;
+}
+
+h4 {
+  font-family: "LatoLatinWebSemibold", "Helvetica Neue", sans-serif;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.span-1-5 {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+@media print {
+  .not-print {
+    display: none;
+  }
+}
+
