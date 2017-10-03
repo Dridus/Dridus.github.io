@@ -37,6 +37,10 @@ p {
   margin-bottom: 1em;
 }
 
+.additional-roles h4 {
+  margin-bottom: 0.25em;
+}
+
 .span-1-5 {
   width: 50px;
   float: left;
